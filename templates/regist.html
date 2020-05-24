@@ -1,0 +1,19 @@
+<!doctype html>
+<title>Web Security</title>
+<form action="regist" method="post">
+    <p>
+           <label for="userame">ユーザー名:</label>
+          <input type="text" id="username" name="username">
+    </p>
+    <p>
+          <label for="password">パスワード:</label>
+          <input type="text" id="password" name="password">
+    </p>
+    <p>
+        <button type="submit">会員登録</button>
+    </p>
+    {% if message %}
+    <p><font color="red">{{ message }}</font></p>
+    {% endif %}
+
+<form>

@@ -1,0 +1,5 @@
+' OR 'A' = 'A
+Alice' OR 'A' = 'A
+
+<script>alert('5000兆円の支払いが発生しました')</script>
+<script>location.href = 'https://www.google.co.jp/'</script>

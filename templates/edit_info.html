@@ -1,0 +1,16 @@
+<!doctype html>
+<title>Hello from Flask</title>
+<h1>会員情報編集ページ</h1>ページ</h1>
+{% if name %}
+  <h2>{{ name }}</h2>
+{% endif %}
+<p>
+  <label for="userame">変更後のユーザー名:</label>
+  <input type="text" id="username" name="username">
+</p>
+<p>
+<button type="button">変更</button>
+</p>
+<a href="/logout">
+  <button type="button">ログアウト</button>
+</a>
